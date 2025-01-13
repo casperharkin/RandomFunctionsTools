@@ -12,7 +12,6 @@ Return
 WM_MOUSEMOVE(wParam, lParam, Msg, Hwnd) 
 {
     Global
-		DllCall("TrackMouseEvent", "UInt")
 		MouseGetPos,OutputVarX,OutputVarY,,, 2
 		ControlGetPos, x, y, w, h, %_Button%
 		Random, Rand1, 0, 600
