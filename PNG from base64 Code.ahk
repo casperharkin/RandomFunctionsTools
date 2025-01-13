@@ -17,7 +17,7 @@
 
 
 
-Loop, read, % "C:\Users\babb\Desktop\RAW.txt"
+Loop, read, % "C:\Users\User\Desktop\RAW.txt"
 	Clipboard .= "`nSB64Raw .= """ . A_LoopReadLine . "`"""
 
 Return
